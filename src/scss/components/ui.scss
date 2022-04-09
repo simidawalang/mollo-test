@@ -1,0 +1,27 @@
+button {
+  border-radius: 4px;
+  padding: 10px 30px;
+  &:hover{
+      cursor: pointer;
+  }
+  &.purple {
+      background: $purple;
+      color: $white;
+      border: 0;
+
+  }
+}
+
+label {
+    font-size: 14px;
+    display: block;
+}
+
+input {
+  border-radius: 4px;
+  padding: 10px 16px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}

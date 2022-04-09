@@ -1,0 +1,12 @@
+@import './utils/colors.scss';
+
+@import './components/ui.scss';
+
+@import './pages/auth.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $black;
+}
