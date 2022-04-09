@@ -1,6 +1,6 @@
 import React from "react";
-import virtualCardsImage from "../../../assets/images/virtual-cards-img.png";
-import listStyleMarker from "../../../assets/images/list-style-img.png";
+import virtualCardsImage from "../../../assets/images/virtual-cards-img.svg";
+import listStyleMarker from "../../../assets/images/list-style-marker.svg";
 
 const VirtualCards = () => {
   return (

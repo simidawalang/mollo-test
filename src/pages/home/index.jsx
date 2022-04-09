@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Footer from "../../components/layout/Footer";
 import Button from "../../components/ui/Button";
 import Pill from "../../components/ui/Pill";
 import BillPayments from "./sections/BillPayments";
 import Register from "./sections/Register";
 import TransferFunds from "./sections/TransferFunds";
 import VirtualCards from "./sections/VirtualCards";
+import headerImage from "../../assets/images/header-img.png";
 
 const Home = () => {
   return (
@@ -31,11 +33,13 @@ const Home = () => {
             </a>
           </div>
         </div>
+        <img src={headerImage} alt="Smiling man with his thumb up" />
       </header>
       <BillPayments />
       <TransferFunds />
       <VirtualCards />
       <Register />
+      <Footer />
     </div>
   );
 };

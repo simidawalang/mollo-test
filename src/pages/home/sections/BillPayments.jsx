@@ -1,6 +1,6 @@
 import React from "react";
-import billPaymentsImg from "../../../assets/images/bill-payments-img.png";
-import listStyleMarker from "../../../assets/images/list-style-img.png";
+import billPaymentsImg from "../../../assets/images/bill-payments-img.svg";
+import listStyleMarker from "../../../assets/images/list-style-marker.svg";
 
 const BillPayments = () => {
   return (

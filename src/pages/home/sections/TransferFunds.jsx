@@ -1,6 +1,6 @@
 import React from "react";
-import transferFundsImg from "../../../assets/images/transfer-funds-img.png";
-import listStyleMarker from "../../../assets/images/list-style-img.png";
+import transferFundsImg from "../../../assets/images/transfer-funds-img.svg";
+import listStyleMarker from "../../../assets/images/list-style-marker.svg";
 
 const TransferFunds = () => {
   return (

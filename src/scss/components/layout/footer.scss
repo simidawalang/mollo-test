@@ -1,0 +1,20 @@
+footer {
+  padding: 40px 100px;
+  & .links {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    @media #{ $medium-up } {
+        grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  & .social-media-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 25px;
+  }
+  & .copyright-text {
+      font-size: 0.75rem;
+  }
+}

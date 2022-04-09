@@ -12,7 +12,7 @@ const Register = () => {
             ultimate financial security
           </p>
           <a href="/">
-          <Pill>PlayStore</Pill></a>
+          <Pill variant="green md">PlayStore</Pill></a>
         </div>
       </div>
     </section>
