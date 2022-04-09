@@ -2,13 +2,19 @@
 
 @import './components/ui.scss';
 @import './components/layout/navbar.scss';
+@import './components/layout/index.scss';
 
 @import './pages/auth.scss';
+@import './pages/home.scss';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: $black;
     font-family: $roboto;
+    line-height: 1.5rem;
+}
+
+body {
+    color: $black;
 }

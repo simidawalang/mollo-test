@@ -2,6 +2,7 @@
 $black: #433D4A;
 $light-gray: #E5e5e5;
 $white: #fff;
+$off-white: #fafff1;
 
 $purple: #3C1D59;
 $light-purple: #F5EBFF;
@@ -10,3 +11,19 @@ $green: #A6C643;
 
 // Fonts
 $roboto: 'Roboto', sans-serif;
+
+// Screen sizes
+$small-up: 'only screen and (min-width: 576px)';
+$medium-up: 'only screen and (min-width: 768px)';
+$large-up: 'only screen and (min-width: 992px)';
+
+h1 {
+    color: $purple;
+    font-size: 2.25rem;
+    line-height: 40px;
+    margin: 20px 0;
+}
+
+p {
+    margin: 20px 0;
+}

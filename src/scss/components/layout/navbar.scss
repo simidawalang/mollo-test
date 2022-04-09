@@ -1,3 +1,6 @@
 nav {
+  padding: 15px 25px;
+  @media #{ $medium-up } {
     padding: 40px 100px;
+  }
 }

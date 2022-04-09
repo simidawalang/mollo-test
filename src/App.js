@@ -1,12 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Layout from "./components/layout/Layout";
 import Auth from "./pages/Auth";
 import "./App.css";
+import Home from "./pages/home/index";
 
 function App() {
   return (
       <Router>
         <Routes>
+          <Route index element={<Home />}/>
           <Route exact path="/auth" element={<Auth />} />
         </Routes>
       </Router>
