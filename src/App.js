@@ -7,8 +7,8 @@ function App() {
   return (
       <Router>
         <Routes>
-          <Route index element={<Home />}/>
-          <Route exact path="/auth" element={<Auth />} />
+          <Route exact path='/' element={<Home />}/>
+          <Route exact path="auth" element={<Auth />} />
         </Routes>
       </Router>
   );

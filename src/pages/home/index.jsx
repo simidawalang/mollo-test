@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Navbar from "../../components/layout/Navbar";
 import Footer from "../../components/layout/Footer";
 import Button from "../../components/ui/Button";
 import Pill from "../../components/ui/Pill";
@@ -11,6 +12,8 @@ import headerImage from "../../assets/images/header-img.png";
 
 const Home = () => {
   return (
+    <>
+    <Navbar />
     <div className="home-page">
       <header>
         <div>
@@ -41,6 +44,7 @@ const Home = () => {
       <Register />
       <Footer />
     </div>
+    </>
   );
 };
 
