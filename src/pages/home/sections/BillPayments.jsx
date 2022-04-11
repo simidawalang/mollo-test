@@ -1,4 +1,5 @@
 import React from "react";
+import Pill from "../../../components/ui/Pill";
 import billPaymentsImg from "../../../assets/images/bill-payments-img.svg";
 import listStyleMarker from "../../../assets/images/list-style-marker.svg";
 
@@ -7,7 +8,7 @@ const BillPayments = () => {
     <section id="bill-payments">
       <img src={billPaymentsImg} alt="Pay Bills with your phone" />
       <div className="section-info">
-        <p>Bill payment</p>
+        <Pill className="section-title" variant="purple" size="sm">Bill payment</Pill>
         <h1>Take advantage of seamless payments at a low or no cost.</h1>
         <p>
           With only a few clicks on your smartphone, you can pay all of your

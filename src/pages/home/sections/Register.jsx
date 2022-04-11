@@ -1,18 +1,19 @@
 import React from "react";
-import Pill from "../../../components/ui/Pill";
+import DownloadLinks from "../../../components/ui/DownloadLinks";
+import transferFundsImg from "../../../assets/images/register-img.svg";
 
 const Register = () => {
   return (
     <section id="register">
+      <img src={transferFundsImg} alt="" />
       <div className="purple-bg">
-        <div>
+        <div className="register-info">
           <h2>Register For Free</h2>
           <p>
-            Mollo is available on Google Play and the App Store.To enjoy
+            Mollo is available on Google Play and the App Store. To enjoy
             ultimate financial security
           </p>
-          <a href="/">
-          <Pill variant="green md">PlayStore</Pill></a>
+          <DownloadLinks />
         </div>
       </div>
     </section>

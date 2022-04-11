@@ -1,4 +1,5 @@
 import React from "react";
+import Pill from "../../../components/ui/Pill";
 import transferFundsImg from "../../../assets/images/transfer-funds-img.svg";
 import listStyleMarker from "../../../assets/images/list-style-marker.svg";
 
@@ -6,10 +7,13 @@ const TransferFunds = () => {
   return (
     <section id="transfer-funds">
       <div className="section-info">
-        <p>Transfer funds</p>
+        <Pill className="section-title" variant="purple" size="sm">
+          Transfer funds
+        </Pill>
         <h1>Send money to friends and family in a flash.</h1>
         <p>
-        Transfers to the Mollo account are free, and you can send money to any bank account in Nigeria.
+          Transfers to the Mollo account are free, and you can send money to any
+          bank account in Nigeria.
         </p>
         <ul>
           <li>
@@ -42,7 +46,7 @@ const TransferFunds = () => {
           </li>
         </ul>
       </div>
-        <img src={transferFundsImg} alt="Pay Bills with your phone" />
+      <img src={transferFundsImg} alt="Pay Bills with your phone" />
     </section>
   );
 };

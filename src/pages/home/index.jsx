@@ -3,14 +3,13 @@ import { Link } from "react-router-dom";
 import Navbar from "../../components/layout/Navbar";
 import Footer from "../../components/layout/Footer";
 import Button from "../../components/ui/Button";
-import Pill from "../../components/ui/Pill";
 import BillPayments from "./sections/BillPayments";
 import Register from "./sections/Register";
 import TransferFunds from "./sections/TransferFunds";
 import VirtualCards from "./sections/VirtualCards";
 import headerImage from "../../assets/images/header-img.png";
-import playstoreIcon from "../../assets/icons/playstore.svg";
-import appleIcon from "../../assets/icons/apple.svg";
+import DownloadLinks from "../../components/ui/DownloadLinks";
+import Pill from "../../components/ui/Pill";
 
 const Home = () => {
   return (
@@ -19,7 +18,9 @@ const Home = () => {
       <div className="home-page">
         <header>
           <div>
-            <p>Digital bank</p>
+            <Pill className="section-title" variant="purple" size="sm">
+              Digital bank
+            </Pill>
             <h1>All lifestyles can gain from digital banking.</h1>
             <p>
               With a free Mollo, you can unlock the power of money. All of your
@@ -28,32 +29,7 @@ const Home = () => {
             <Link to="/auth">
               <Button variant="purple" content="Get Started" />
             </Link>
-            <div className="pill-download-links">
-              <a
-                href="https://play.google.com/store"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Pill variant="green" size="md">
-                  <img src={playstoreIcon} alt="playstore icon" />
-                  <p>
-                    Get it on <strong>Play Store</strong>
-                  </p>
-                </Pill>
-              </a>
-              <a
-                href="https://play.google.com/store"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Pill variant="green" size="md">
-                  <img src={appleIcon} alt="apple icon" />
-                  <p>
-                    Get it on <strong>Apple</strong>
-                  </p>
-                </Pill>
-              </a>
-            </div>
+            <DownloadLinks />
           </div>
           <img src={headerImage} alt="Smiling man with his thumb up" />
         </header>
