@@ -5,7 +5,7 @@ import transferFundsImg from "../../../assets/images/register-img.svg";
 const Register = () => {
   return (
     <section id="register">
-      <img src={transferFundsImg} alt="" />
+      <img className="register-img" src={transferFundsImg} alt="" />
       <div className="purple-bg">
         <div className="register-info">
           <h2>Register For Free</h2>

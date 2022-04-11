@@ -2,6 +2,7 @@ import React from "react";
 import Pill from "../../../components/ui/Pill";
 import virtualCardsImage from "../../../assets/images/virtual-cards-img.svg";
 import listStyleMarker from "../../../assets/images/list-style-marker.svg";
+import DownloadLinks from "../../../components/ui/DownloadLinks";
 
 const VirtualCards = () => {
   return (
@@ -9,6 +10,7 @@ const VirtualCards = () => {
       <img src={virtualCardsImage} alt="Pay Bills with your phone" />
       <div className="section-info">
         <Pill className="section-title" variant="purple" size="sm">Virtual Card</Pill>
+        <DownloadLinks />
         <h1>Take advantage of seamless payments at a low or no cost.</h1>
         <p>
           With only a few clicks on your smartphone, you can pay all of your
