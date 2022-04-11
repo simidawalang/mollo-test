@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Button from "../ui/Button";
 import molloLogo from "../../assets/images/mollo-logo.svg";
 
 const Navbar = () => {
-  const [isNavItemOpen, setIsNavItemOpen] = useState(false);
-
   return (
     <nav>
       <a href="/">
@@ -17,8 +15,8 @@ const Navbar = () => {
         <li>Help</li>
       </ul>
       <div className="auth-links">
-        <Link to="/auth">Login</Link>
-        <Link to="/auth">
+        <Link to="/auth/login">Login</Link>
+        <Link to="/auth/signup">
           <Button variant="purple" content="Sign Up" />
         </Link>
       </div>
