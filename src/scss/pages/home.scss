@@ -1,30 +1,30 @@
-li {
-    display: flex;
-    align-content: center;
-    margin: 20px 0;
-    & img {
+.home-page {
+  & section {
+    & li {
+      display: flex;
+      align-content: center;
+      margin: 20px 0;
+      & img {
         margin-right: 15px;
+      }
     }
-}
-
-section {
     & img {
-        max-height: 520px;
+      max-height: 520px;
     }
     &#transfer-funds {
-        background: $off-white;
+      background: $off-white;
     }
     &#register {
-        color: $white;
-        & .purple-bg {
-            background: $purple;
-            border-radius: 10px;
-            padding: 40px;
-            width: 100%;
-        }
+      color: $white;
+      & .purple-bg {
+        background: $purple;
+        border-radius: 10px;
+        padding: 40px;
+        width: 100%;
+      }
     }
     & .section-info {
-        max-width: 480px;
+      max-width: 480px;
     }
-
+  }
 }

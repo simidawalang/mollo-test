@@ -1,21 +1,20 @@
 button {
   border-radius: 4px;
   padding: 10px 30px;
-  &:hover{
-      cursor: pointer;
+  &:hover {
+    cursor: pointer;
   }
   &.purple {
-      background: $purple;
-      color: $white;
-      border: 0;
-
+    background: $purple;
+    color: $white;
+    border: 0;
   }
 }
 
 label {
-    font-size: 14px;
-    display: block;
-    margin-bottom: 5px;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 input {
@@ -25,5 +24,31 @@ input {
 }
 
 .input-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.pill {
+  display: flex;
+  line-height: 1.2rem;
+  & img {
+    height: fit-content;
+    margin-right: 10px;
+  }
+  &.green {
+    background: $green;
+    color: $white;
+    width: 150px;
+    font-size: 12px;
+    padding: 8px;
+  }
+  &.md {
+    border-radius: 14px;
+  }
+  & strong {
+    display: block;
+  }
+  &-download-links {
+    display: flex;
+    gap: 10px;
+  }
 }
